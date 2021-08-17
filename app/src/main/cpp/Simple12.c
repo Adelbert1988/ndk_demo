@@ -2,6 +2,7 @@
 // 实现我们的 native 方法
 #include "com_darren_ndk12_NdkSimple.h"
 #include "com_darren_ndk12_NdkSimple1.h"
+#include "../../../../../../../work/android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/jni.h"
 
 // JNIEXPORT JNI 一个关键字，不能少（编译能通过），标记为该方法可以被外部调用
 // jstring : 代表 java 中的 String 
